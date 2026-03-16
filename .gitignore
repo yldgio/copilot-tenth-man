@@ -1,0 +1,10 @@
+.vscode/
+PowerShellEditorServices.json
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Logs and temp files
+*.log
+*.tmp

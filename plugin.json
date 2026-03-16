@@ -1,0 +1,11 @@
+{
+  "name": "tenth-man",
+  "description": "A contrarian verification agent inspired by the Tenth Man Rule. Stress-tests answers before presenting them.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Giovanni Ferrara"
+  },
+  "license": "MIT",
+  "keywords": ["verification", "contrarian", "tenth-man", "quality"],
+  "agents": "agents/"
+}
