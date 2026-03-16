@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tenth Man — GitHub Copilot CLI Plugin</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 4rem auto; padding: 0 1.5rem; color: #1a1a1a; }
+    h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+    .tagline { color: #555; font-size: 1.1rem; margin-bottom: 2rem; }
+    blockquote { border-left: 3px solid #888; margin: 0 0 2rem; padding: 0.5rem 1rem; color: #444; font-style: italic; }
+    ol { line-height: 2; }
+    pre { background: #f4f4f4; padding: 1rem; border-radius: 6px; overflow-x: auto; }
+    code { font-family: monospace; font-size: 0.95rem; }
+    a { color: #0969da; }
+    footer { margin-top: 3rem; font-size: 0.85rem; color: #888; }
+  </style>
+</head>
+<body>
+  <h1>Tenth Man</h1>
+  <p class="tagline">A contrarian verification plugin for GitHub Copilot CLI.</p>
+
+  <blockquote>If nine people agree, the tenth must assume they are all wrong.</blockquote>
+
+  <p>The Tenth Man agent stress-tests its own answers before showing them to you:</p>
+  <ol>
+    <li>Drafts an initial answer</li>
+    <li>Generates verification questions to expose flaws</li>
+    <li>Answers each question independently with a second model</li>
+    <li>Revises the final answer based on what verification revealed</li>
+  </ol>
+
+  <h2>Install</h2>
+  <pre><code>copilot plugin install yldgio/copilot-tenth-man</code></pre>
+
+  <h2>Use</h2>
+  <pre><code>/agent  → pick Tenth Man</code></pre>
+
+  <footer>
+    <a href="https://github.com/yldgio/copilot-tenth-man">GitHub</a> ·
+    Inspired by <a href="https://themindcollection.com/the-tenth-man-rule-devils-advocacy">the Tenth Man Rule</a>
+  </footer>
+</body>
+</html>
