@@ -18,7 +18,7 @@ This catches wrong assumptions, missing edge cases, and unverified claims — be
 ## Install
 
 ```bash
-copilot plugin install <owner>/10thman
+copilot plugin install yldgio/copilot-tenth-man
 ```
 
 ## Use
